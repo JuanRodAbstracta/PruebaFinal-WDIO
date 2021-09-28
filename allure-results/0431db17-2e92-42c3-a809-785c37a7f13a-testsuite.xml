@@ -1,0 +1,145 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1632697702761' stop='1632697756257'>
+    <name>Cambiar direccion de entrega: </name>
+    <title>Cambiar direccion de entrega: </title>
+    <test-cases>
+        <test-case start='1632697702762' status='passed' stop='1632697710600'>
+            <name>Chequear que no haya una sesion abierta</name>
+            <title>Chequear que no haya una sesion abierta</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-94.0.4606.54'/>
+            </parameters>
+            <steps>
+                <step start='1632697707526' status='passed' stop='1632697707526'>
+                    <name>Cierra sesion abierta</name>
+                    <title>Cierra sesion abierta</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1632697710601' status='passed' stop='1632697718905'>
+            <name>Abrir usuario creado para este test e ingresa a sus direcciones</name>
+            <title>Abrir usuario creado para este test e ingresa a sus direcciones</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-94.0.4606.54'/>
+            </parameters>
+            <steps>
+                <step start='1632697710601' status='passed' stop='1632697710601'>
+                    <name>Inicia nuevo registro</name>
+                    <title>Inicia nuevo registro</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1632697712379' status='passed' stop='1632697712379'>
+                    <name>Ingresa usuario existente</name>
+                    <title>Ingresa usuario existente</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1632697717742' status='passed' stop='1632697717742'>
+                    <name>Ingresa a My Adress</name>
+                    <title>Ingresa a My Adress</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1632697718905' status='passed' stop='1632697728221'>
+            <name>Editar direccion de entrega: Marquitos Bueno 1234</name>
+            <title>Editar direccion de entrega: Marquitos Bueno 1234</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-94.0.4606.54'/>
+            </parameters>
+            <steps>
+                <step start='1632697718906' status='passed' stop='1632697718906'>
+                    <name>Editar direccion de entrega</name>
+                    <title>Editar direccion de entrega</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1632697728221' status='passed' stop='1632697737446'>
+            <name>Editar direccion de entrega: a</name>
+            <title>Editar direccion de entrega: a</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-94.0.4606.54'/>
+            </parameters>
+            <steps>
+                <step start='1632697728222' status='passed' stop='1632697728222'>
+                    <name>Editar direccion de entrega</name>
+                    <title>Editar direccion de entrega</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1632697737446' status='passed' stop='1632697747124'>
+            <name>Editar direccion de entrega: Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque pen</name>
+            <title>Editar direccion de entrega: Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque pen</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-94.0.4606.54'/>
+            </parameters>
+            <steps>
+                <step start='1632697737447' status='passed' stop='1632697737447'>
+                    <name>Editar direccion de entrega</name>
+                    <title>Editar direccion de entrega</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1632697747124' status='passed' stop='1632697756255'>
+            <name>Restaruar la dirección de entrega</name>
+            <title>Restaruar la dirección de entrega</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-94.0.4606.54'/>
+            </parameters>
+            <steps>
+                <step start='1632697747125' status='passed' stop='1632697747125'>
+                    <name>Vuelve a editar a la direccion original</name>
+                    <title>Vuelve a editar a la direccion original</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

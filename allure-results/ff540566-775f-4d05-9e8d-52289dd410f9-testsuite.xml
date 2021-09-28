@@ -1,0 +1,221 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1632414952862' stop='1632415031841'>
+    <name>Agregar a carrito: </name>
+    <title>Agregar a carrito: </title>
+    <test-cases>
+        <test-case start='1632414952864' status='passed' stop='1632414961837'>
+            <name>Chequear que no haya una sesion abierta</name>
+            <title>Chequear que no haya una sesion abierta</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-94.0.4606.54'/>
+            </parameters>
+            <steps>
+                <step start='1632414958714' status='passed' stop='1632414958715'>
+                    <name>Cierra sesion abierta</name>
+                    <title>Cierra sesion abierta</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1632414961838' status='passed' stop='1632414975943'>
+            <name>Abre usuario creado para este test</name>
+            <title>Abre usuario creado para este test</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-94.0.4606.54'/>
+            </parameters>
+            <steps>
+                <step start='1632414961839' status='passed' stop='1632414961839'>
+                    <name>Inicia nuevo registro</name>
+                    <title>Inicia nuevo registro</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1632414964014' status='passed' stop='1632414964014'>
+                    <name>Ingresa usuario existente</name>
+                    <title>Ingresa usuario existente</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1632414975943' status='broken' stop='1632414989276'>
+            <name>Busca producto pre cargado en datos y lo agrega al carrito</name>
+            <title>Busca producto pre cargado en datos y lo agrega al carrito</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-94.0.4606.54'/>
+            </parameters>
+            <steps>
+                <step start='1632414975945' status='passed' stop='1632414975945'>
+                    <name>Buscar articulo</name>
+                    <title>Buscar articulo</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1632414976370' status='passed' stop='1632414976370'>
+                    <name>Agrega producto a carrito</name>
+                    <title>Agrega producto a carrito</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title='Screenshot' source='5b51087c-ccbf-4dde-acee-2f9c929570fc-attachment.png' type='image/png' size='246498'/>
+            </attachments>
+            <failure>
+                <message>element ("[name="Submit"]") still not clickable after 10000ms</message>
+                <stack-trace>Error: element ("[name="Submit"]") still not clickable after 10000ms
+                    at C:\Juancho\Academy\WebdriverIO\PruebaFinal2\node_modules\webdriverio\build\commands\browser\waitUntil.js:66:23
+                    at Element.wrapCommandFn (C:\Juancho\Academy\WebdriverIO\PruebaFinal2\node_modules\@wdio\utils\build\shim.js:106:29)
+                    at Element.elementErrorHandlerCallbackFn (C:\Juancho\Academy\WebdriverIO\PruebaFinal2\node_modules\webdriverio\build\middlewares.js:24:32)
+                    at Element.wrapCommandFn (C:\Juancho\Academy\WebdriverIO\PruebaFinal2\node_modules\@wdio\utils\build\shim.js:106:29)
+                    at Element.wrapCommandFn (C:\Juancho\Academy\WebdriverIO\PruebaFinal2\node_modules\@wdio\utils\build\shim.js:106:29)
+                    at Element.elementErrorHandlerCallbackFn (C:\Juancho\Academy\WebdriverIO\PruebaFinal2\node_modules\webdriverio\build\middlewares.js:24:32)
+                    at Element.wrapCommandFn (C:\Juancho\Academy\WebdriverIO\PruebaFinal2\node_modules\@wdio\utils\build\shim.js:106:29)
+                    at SearchPage.clickearElemento (C:\Juancho\Academy\WebdriverIO\PruebaFinal2\pages\/base.page.js:37:8)
+                    at SearchPage.agregarCarrito (C:\Juancho\Academy\WebdriverIO\PruebaFinal2\pages\/search.page.js:21:8)
+                    at Context.&lt;anonymous> (C:\Juancho\Academy\WebdriverIO\PruebaFinal2\tests\/realizarCompra.test.js:28:9)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1632414989278' status='broken' stop='1632414999724'>
+            <name>Comparación de imágenes: Verifica que el producto se agrego al carrito</name>
+            <title>Comparación de imágenes: Verifica que el producto se agrego al carrito</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-94.0.4606.54'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='690eac97-4223-4d2f-b5a6-271022a28a1c-attachment.png' type='image/png' size='246492'/>
+            </attachments>
+            <failure>
+                <message>element (".icon-ok") still not displayed after 10000ms</message>
+                <stack-trace>Error: element (".icon-ok") still not displayed after 10000ms
+                    at C:\Juancho\Academy\WebdriverIO\PruebaFinal2\node_modules\webdriverio\build\commands\browser\waitUntil.js:66:23
+                    at Element.wrapCommandFn (C:\Juancho\Academy\WebdriverIO\PruebaFinal2\node_modules\@wdio\utils\build\shim.js:106:29)
+                    at Element.elementErrorHandlerCallbackFn (C:\Juancho\Academy\WebdriverIO\PruebaFinal2\node_modules\webdriverio\build\middlewares.js:24:32)
+                    at Element.wrapCommandFn (C:\Juancho\Academy\WebdriverIO\PruebaFinal2\node_modules\@wdio\utils\build\shim.js:106:29)
+                    at Element.wrapCommandFn (C:\Juancho\Academy\WebdriverIO\PruebaFinal2\node_modules\@wdio\utils\build\shim.js:106:29)
+                    at Element.elementErrorHandlerCallbackFn (C:\Juancho\Academy\WebdriverIO\PruebaFinal2\node_modules\webdriverio\build\middlewares.js:24:32)
+                    at Element.wrapCommandFn (C:\Juancho\Academy\WebdriverIO\PruebaFinal2\node_modules\@wdio\utils\build\shim.js:106:29)
+                    at Context.&lt;anonymous> (C:\Juancho\Academy\WebdriverIO\PruebaFinal2\tests\/realizarCompra.test.js:34:9)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1632414999724' status='broken' stop='1632415011104'>
+            <name>Proceder con compra</name>
+            <title>Proceder con compra</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-94.0.4606.54'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='0dc97ecd-6fea-4b7c-85de-2edb7c8004fa-attachment.png' type='image/png' size='246498'/>
+            </attachments>
+            <failure>
+                <message>element (".cross") still not clickable after 10000ms</message>
+                <stack-trace>Error: element (".cross") still not clickable after 10000ms
+                    at C:\Juancho\Academy\WebdriverIO\PruebaFinal2\node_modules\webdriverio\build\commands\browser\waitUntil.js:66:23
+                    at Element.wrapCommandFn (C:\Juancho\Academy\WebdriverIO\PruebaFinal2\node_modules\@wdio\utils\build\shim.js:106:29)
+                    at Element.elementErrorHandlerCallbackFn (C:\Juancho\Academy\WebdriverIO\PruebaFinal2\node_modules\webdriverio\build\middlewares.js:24:32)
+                    at Element.wrapCommandFn (C:\Juancho\Academy\WebdriverIO\PruebaFinal2\node_modules\@wdio\utils\build\shim.js:106:29)
+                    at Element.wrapCommandFn (C:\Juancho\Academy\WebdriverIO\PruebaFinal2\node_modules\@wdio\utils\build\shim.js:106:29)
+                    at Element.elementErrorHandlerCallbackFn (C:\Juancho\Academy\WebdriverIO\PruebaFinal2\node_modules\webdriverio\build\middlewares.js:24:32)
+                    at Element.wrapCommandFn (C:\Juancho\Academy\WebdriverIO\PruebaFinal2\node_modules\@wdio\utils\build\shim.js:106:29)
+                    at SearchPage.clickearElemento (C:\Juancho\Academy\WebdriverIO\PruebaFinal2\pages\/base.page.js:37:8)
+                    at SearchPage.cerrarVentana (C:\Juancho\Academy\WebdriverIO\PruebaFinal2\pages\/search.page.js:29:9)
+                    at Context.&lt;anonymous> (C:\Juancho\Academy\WebdriverIO\PruebaFinal2\tests\/realizarCompra.test.js:47:9)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1632415011104' status='broken' stop='1632415021571'>
+            <name>Selecciono Metodo de Pago</name>
+            <title>Selecciono Metodo de Pago</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-94.0.4606.54'/>
+            </parameters>
+            <steps>
+                <step start='1632415011106' status='passed' stop='1632415011106'>
+                    <name>Selecciono metodo de pago</name>
+                    <title>Selecciono metodo de pago</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title='Screenshot' source='631d42e6-5564-4e7e-a411-7c1333966d88-attachment.png' type='image/png' size='239795'/>
+            </attachments>
+            <failure>
+                <message>element (".cheque") still not clickable after 10000ms</message>
+                <stack-trace>Error: element (".cheque") still not clickable after 10000ms
+                    at C:\Juancho\Academy\WebdriverIO\PruebaFinal2\node_modules\webdriverio\build\commands\browser\waitUntil.js:66:23
+                    at Element.wrapCommandFn (C:\Juancho\Academy\WebdriverIO\PruebaFinal2\node_modules\@wdio\utils\build\shim.js:106:29)
+                    at Element.elementErrorHandlerCallbackFn (C:\Juancho\Academy\WebdriverIO\PruebaFinal2\node_modules\webdriverio\build\middlewares.js:24:32)
+                    at Element.wrapCommandFn (C:\Juancho\Academy\WebdriverIO\PruebaFinal2\node_modules\@wdio\utils\build\shim.js:106:29)
+                    at Element.wrapCommandFn (C:\Juancho\Academy\WebdriverIO\PruebaFinal2\node_modules\@wdio\utils\build\shim.js:106:29)
+                    at Element.elementErrorHandlerCallbackFn (C:\Juancho\Academy\WebdriverIO\PruebaFinal2\node_modules\webdriverio\build\middlewares.js:24:32)
+                    at Element.wrapCommandFn (C:\Juancho\Academy\WebdriverIO\PruebaFinal2\node_modules\@wdio\utils\build\shim.js:106:29)
+                    at PaymanetMethodPage.clickearElemento (C:\Juancho\Academy\WebdriverIO\PruebaFinal2\pages\/base.page.js:37:8)
+                    at PaymanetMethodPage.seleccionarMetodoPago (C:\Juancho\Academy\WebdriverIO\PruebaFinal2\pages\/paymentMethod.page.js:18:9)
+                    at Context.&lt;anonymous> (C:\Juancho\Academy\WebdriverIO\PruebaFinal2\tests\/realizarCompra.test.js:55:9)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1632415021572' status='broken' stop='1632415031839'>
+            <name>Comparación de imágenes: verifica la compra final</name>
+            <title>Comparación de imágenes: verifica la compra final</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-94.0.4606.54'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='f07a4fab-86c0-4904-bba7-e80dc2324871-attachment.png' type='image/png' size='239795'/>
+            </attachments>
+            <failure>
+                <message>element ("p=Your order on My Store is complete.") still not displayed after 10000ms</message>
+                <stack-trace>Error: element ("p=Your order on My Store is complete.") still not displayed after 10000ms
+                    at C:\Juancho\Academy\WebdriverIO\PruebaFinal2\node_modules\webdriverio\build\commands\browser\waitUntil.js:66:23
+                    at Element.wrapCommandFn (C:\Juancho\Academy\WebdriverIO\PruebaFinal2\node_modules\@wdio\utils\build\shim.js:106:29)
+                    at Element.elementErrorHandlerCallbackFn (C:\Juancho\Academy\WebdriverIO\PruebaFinal2\node_modules\webdriverio\build\middlewares.js:24:32)
+                    at Element.wrapCommandFn (C:\Juancho\Academy\WebdriverIO\PruebaFinal2\node_modules\@wdio\utils\build\shim.js:106:29)
+                    at Element.wrapCommandFn (C:\Juancho\Academy\WebdriverIO\PruebaFinal2\node_modules\@wdio\utils\build\shim.js:106:29)
+                    at Element.elementErrorHandlerCallbackFn (C:\Juancho\Academy\WebdriverIO\PruebaFinal2\node_modules\webdriverio\build\middlewares.js:24:32)
+                    at Element.wrapCommandFn (C:\Juancho\Academy\WebdriverIO\PruebaFinal2\node_modules\@wdio\utils\build\shim.js:106:29)
+                    at Context.&lt;anonymous> (C:\Juancho\Academy\WebdriverIO\PruebaFinal2\tests\/realizarCompra.test.js:60:9)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

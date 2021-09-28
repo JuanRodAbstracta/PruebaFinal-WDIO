@@ -1,0 +1,83 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1632699334387' stop='1632699355865'>
+    <name>Registro: </name>
+    <title>Registro: </title>
+    <test-cases>
+        <test-case start='1632699334387' status='passed' stop='1632699345436'>
+            <name>Comienza un nuevo registro</name>
+            <title>Comienza un nuevo registro</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-94.0.4606.54'/>
+            </parameters>
+            <steps>
+                <step start='1632699340252' status='passed' stop='1632699340252'>
+                    <name>Inicia nuevo registro</name>
+                    <title>Inicia nuevo registro</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1632699341837' status='passed' stop='1632699341837'>
+                    <name>Comienza nuevo registro</name>
+                    <title>Comienza nuevo registro</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1632699345437' status='broken' stop='1632699350670'>
+            <name>Llena datos</name>
+            <title>Llena datos</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-94.0.4606.54'/>
+            </parameters>
+            <steps>
+                <step start='1632699345438' status='passed' stop='1632699345438'>
+                    <name>Carga datos de usuario</name>
+                    <title>Carga datos de usuario</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title='Screenshot' source='996a01af-2a84-4e04-b556-4f482f0fd212-attachment.png' type='image/png' size='54360'/>
+            </attachments>
+            <failure>
+                <message>Can't call click on element with selector "#id_gender1" because element wasn't found</message>
+                <stack-trace>Error: Can't call click on element with selector "#id_gender1" because element wasn't found
+                    at Object.implicitWait [as default] (C:\Juancho\Academy\WebdriverIO\PruebaFinal2\node_modules\webdriverio\build\utils\implicitWait.js:34:19)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1632699350670' status='broken' stop='1632699355864'>
+            <name>Verifica que la cuenta se haya creado</name>
+            <title>Verifica que la cuenta se haya creado</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-94.0.4606.54'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='6bb47808-7be2-41a5-bc6d-323ba03c3e51-attachment.png' type='image/png' size='54360'/>
+            </attachments>
+            <failure>
+                <message>Can't call getText on element with selector ".info-account" because element wasn't found</message>
+                <stack-trace>Error: Can't call getText on element with selector ".info-account" because element wasn't found
+                    at Object.implicitWait [as default] (C:\Juancho\Academy\WebdriverIO\PruebaFinal2\node_modules\webdriverio\build\utils\implicitWait.js:34:19)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

@@ -1,0 +1,85 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1632697872573' stop='1632697890813'>
+    <name>Registro: </name>
+    <title>Registro: </title>
+    <test-cases>
+        <test-case start='1632697872574' status='broken' stop='1632697880359'>
+            <name>Comienza un nuevo registro</name>
+            <title>Comienza un nuevo registro</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-94.0.4606.54'/>
+            </parameters>
+            <steps>
+                <step start='1632697877310' status='passed' stop='1632697877310'>
+                    <name>Inicia nuevo registro</name>
+                    <title>Inicia nuevo registro</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title='Screenshot' source='75335769-1ba6-483f-ab19-e84c49ed7055-attachment.png' type='image/png' size='154522'/>
+            </attachments>
+            <failure>
+                <message>_authentication.default.ingresarNuevoMail is not a function</message>
+                <stack-trace>TypeError: _authentication.default.ingresarNuevoMail is not a function
+                    at Context.&lt;anonymous> (C:\Juancho\Academy\WebdriverIO\PruebaFinal2\tests\/crearUsuario.test.js:11:34)
+                    at processTicksAndRejections (internal/process/task_queues.js:97:5)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1632697880359' status='broken' stop='1632697885587'>
+            <name>Llena datos</name>
+            <title>Llena datos</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-94.0.4606.54'/>
+            </parameters>
+            <steps>
+                <step start='1632697880360' status='passed' stop='1632697880360'>
+                    <name>Carga datos de usuario</name>
+                    <title>Carga datos de usuario</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title='Screenshot' source='0aff3989-cea5-4f22-a2c0-c5e409215850-attachment.png' type='image/png' size='154522'/>
+            </attachments>
+            <failure>
+                <message>Can't call click on element with selector "#id_gender1" because element wasn't found</message>
+                <stack-trace>Error: Can't call click on element with selector "#id_gender1" because element wasn't found
+                    at Object.implicitWait [as default] (C:\Juancho\Academy\WebdriverIO\PruebaFinal2\node_modules\webdriverio\build\utils\implicitWait.js:34:19)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1632697885587' status='broken' stop='1632697890812'>
+            <name>Verifica que la cuenta se haya creado</name>
+            <title>Verifica que la cuenta se haya creado</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-94.0.4606.54'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='185dd27d-f5f9-483a-9492-433e43b28254-attachment.png' type='image/png' size='154522'/>
+            </attachments>
+            <failure>
+                <message>Can't call getText on element with selector ".info-account" because element wasn't found</message>
+                <stack-trace>Error: Can't call getText on element with selector ".info-account" because element wasn't found
+                    at Object.implicitWait [as default] (C:\Juancho\Academy\WebdriverIO\PruebaFinal2\node_modules\webdriverio\build\utils\implicitWait.js:34:19)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>
