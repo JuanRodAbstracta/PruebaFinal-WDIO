@@ -1,0 +1,69 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1632709421381' stop='1632709442925'>
+    <name>Registro: </name>
+    <title>Registro: </title>
+    <test-cases>
+        <test-case start='1632709421382' status='passed' stop='1632709431281'>
+            <name>Comienza un nuevo registro</name>
+            <title>Comienza un nuevo registro</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-94.0.4606.54'/>
+            </parameters>
+            <steps>
+                <step start='1632709425809' status='passed' stop='1632709425809'>
+                    <name>Inicia nuevo registro</name>
+                    <title>Inicia nuevo registro</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1632709427704' status='passed' stop='1632709427705'>
+                    <name>Comienza nuevo registro</name>
+                    <title>Comienza nuevo registro</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1632709431281' status='passed' stop='1632709439860'>
+            <name>Llena datos</name>
+            <title>Llena datos</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-94.0.4606.54'/>
+            </parameters>
+            <steps>
+                <step start='1632709431281' status='passed' stop='1632709431281'>
+                    <name>Carga datos de usuario</name>
+                    <title>Carga datos de usuario</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1632709439861' status='passed' stop='1632709442923'>
+            <name>Verifica que la cuenta se haya creado</name>
+            <title>Verifica que la cuenta se haya creado</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-94.0.4606.54'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>
