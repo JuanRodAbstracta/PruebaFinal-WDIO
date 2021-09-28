@@ -1,5 +1,0 @@
-{
-  "error": "no such element",
-  "message": "no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\".logout\"}\n  (Session info: chrome=93.0.4577.63)",
-  "stacktrace": "Backtrace:\n\tOrdinal0 [0x0097D403+2479107]\n\tOrdinal0 [0x00917D51+2063697]\n\tOrdinal0 [0x008220C8+1056968]\n\tOrdinal0 [0x0084CAAB+1231531]\n\tOrdinal0 [0x00876902+1403138]\n\tOrdinal0 [0x008659AA+1333674]\n\tOrdinal0 [0x00874CAF+1395887]\n\tOrdinal0 [0x0086583B+1333307]\n\tOrdinal0 [0x00841F94+1187732]\n\tOrdinal0 [0x00842DE9+1191401]\n\tGetHandleVerifier [0x00AFF3F6+1531734]\n\tGetHandleVerifier [0x00BAE9AE+2249998]\n\tGetHandleVerifier [0x00A039AB+501003]\n\tGetHandleVerifier [0x00A02A29+497033]\n\tOrdinal0 [0x0091D11D+2085149]\n\tOrdinal0 [0x009211C8+2101704]\n\tOrdinal0 [0x00921302+2102018]\n\tOrdinal0 [0x0092AA71+2140785]\n\tBaseThreadInitThunk [0x762EFA29+25]\n\tRtlGetAppContainerNamedObjectPath [0x77BC7A9E+286]\n\tRtlGetAppContainerNamedObjectPath [0x77BC7A6E+238]\n"
-}
